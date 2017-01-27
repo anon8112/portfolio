@@ -1,0 +1,10 @@
+[package]
+name = "portfolio_client"
+version = "0.1.0"
+authors = ["anon8112"]
+
+[dependencies]
+webplatform = "*"
+libc = "*"
+rustc-serialize = "*"
+portfolio_shared =  { path = "../shared", version = "*" }

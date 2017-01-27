@@ -1,0 +1,12 @@
+[package]
+name = "portfolio_shared"
+version = "0.1.0"
+authors = ["anon8112"]
+
+[lib]
+name = "portfolio_shared"
+path = "src/lib.rs"
+
+[dependencies]
+rustc-serialize = "*"
+

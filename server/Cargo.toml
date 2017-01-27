@@ -1,0 +1,11 @@
+[package]
+name = "portfolio_server"
+version = "0.1.0"
+authors = ["anon8112"]
+
+[dependencies]
+hyper = "*"
+redis = "*"
+serde_json = "*"
+rustc-serialize = "*"
+portfolio_shared =  { path = "../shared", version = "*" }
